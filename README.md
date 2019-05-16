@@ -68,3 +68,5 @@ or create new Dockerfile with `FROM suttang/gollum`
 ```
 docker run -d -p 8080:4567 --restart=always -v /home/wikidata:/root/wikidata --name gollum suttang/gollum --allow-uploads --live-preview
 ```
+### login
+http://39.98.205.45:8080/
