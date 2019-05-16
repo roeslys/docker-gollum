@@ -65,6 +65,6 @@ To add more options , checkout this link [gollum options](https://github.com/gol
 or create new Dockerfile with `FROM suttang/gollum`
 
 ### run
+```
 docker run -d -p 8080:4567 --restart=always -v /home/wikidata:/root/wikidata --name gollum suttang/gollum --allow-uploads --live-preview
-
-
+```
