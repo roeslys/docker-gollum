@@ -63,3 +63,8 @@ To add more options , checkout this link [gollum options](https://github.com/gol
 	sudo docker commit -m "customized suttang/gollum by myself" CONTAINER_ID YOURNAME/gollum
 
 or create new Dockerfile with `FROM suttang/gollum`
+
+### run
+docker run -d -p 8080:4567 --restart=always -v /home/wikidata:/root/wikidata --name gollum suttang/gollum --allow-uploads --live-preview
+
+
